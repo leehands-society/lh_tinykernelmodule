@@ -9,6 +9,7 @@ MODULE_DESCRIPTION("module programming - hello world module ");
 
 static int __init module_begin(void){
 	printk("Hello, linux kernel module. \n");
+	return 0;
 }
 
 static void __exit module_end(void){
